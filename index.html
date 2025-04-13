@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+
+  <body>
+    <div class="container text-center card">
+      <form id="search-form" class="search-bar d-flex align-items-center">
+        <input
+          type="text"
+          placeholder="Search for a City"
+          autocomplete="off"
+          autofocus="on"
+          class="w-100 form-control"
+        />
+
+        <button
+          type="submit"
+          value="Search"
+          class="btn btn-primary ms-auto btn btn-info"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+
+      <div class="form-check form-switch ms-auto">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="flexSwitchCheckDefault"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+      </div>
+
+      <div class="card-body">
+        <div class="row">
+          <div class="col-6">
+            <section class="current">
+              <h2>It's Partly Cloudy!</h2>
+              <i class="fa-solid fa-cloud-sun"></i>
+            </section>
+          </div>
+
+          <div class="col-6 text-end">
+            <span class="temp"
+              >37°F
+              <div>
+                <span id="datetime">Hello!</span>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cardweekdays">
+        <div class="card-body">
+          <div class="row">
+            <div class="col">
+              <span class="sunday"
+                >Sun <br />
+                <i class="fa-solid fa-cloud-rain"></i>
+                <br />
+                37°F | 32°F</span
+              >
+            </div>
+            <div class="col">
+              <span class="monday"
+                >Mon <br />
+                <i class="fa-solid fa-cloud-showers-heavy"></i>
+                <br />
+                33°F | 28°F</span
+              >
+            </div>
+            <div class="col">
+              <span class="tuesday"
+                >Tues <br />
+                <i class="fa-solid fa-cloud-rain"></i>
+                <br />
+                38°F | 37°F</span
+              >
+            </div>
+            <div class="col">
+              <span class="wednesday"
+                >Weds <br />
+                <i class="fa-solid fa-cloud-sun-rain"></i>
+                <br />
+                32°F | 29°F</span
+              >
+            </div>
+            <div class="col">
+              <span class="thursday"
+                >Thur <br />
+                <i class="fa-solid fa-sun"></i>
+                <br />
+                42°F | 37°F</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/theartistboe/my-weather-app" target="_blank"
+      >Link to Github 😺</a
+    >
+    <script src="src/week4.js"></script>
+  </body>
+</html>

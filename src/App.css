@@ -1,0 +1,247 @@
+h1 {
+  display: block;
+  font-size: 95px;
+  text-align: justify;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  font-size: 100;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #61c0bf;
+}
+
+h5 {
+  display: block;
+  text-align: left;
+}
+body {
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgb(227, 253, 246) 0%,
+    rgb(217, 251, 245) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.currentCity {
+  color: #00c9c2;
+  margin: 0;
+  padding: 0;
+}
+
+.datetime {
+  text-align: right;
+  list-style: none;
+  font-size: medium;
+}
+
+.container {
+  padding: 10px;
+  border-radius: 10px;
+}
+.dark {
+  background: linear-gradient(
+    to top,
+    #505285 0%,
+    #585e92 12%,
+    #65689f 25%,
+    #7474b0 37%,
+    #7e7ebb 50%,
+    #8389c7 62%,
+    #9795d4 75%,
+    #a2a1dc 87%,
+    #b5aee4 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.dark .container {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.cardweekdays {
+  border: 2px solid #61c0bf;
+  border-radius: 10px;
+}
+
+.card {
+  margin-top: 35px;
+  padding: 10px;
+  border: 2px solid #61c0bf;
+  border-radius: 10px;
+  background: #fffefb;
+  box-shadow: 2px 2px 7px rgba(0, 128, 119, 0.822);
+}
+
+.dark .card {
+  background: #8983f3;
+  border: 2px solid #a5f2e7;
+  border-radius: 10px;
+}
+.current {
+  font-size: 95px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.temp {
+  display: block;
+  position: relative;
+  padding-top: 150px;
+  margin-right: 0;
+  color: #61c0bf;
+  font-size: 100px;
+  font-weight: 120;
+}
+
+.weather {
+  font-size: 95px;
+  text-align: right;
+}
+
+.fa-cloud-sun {
+  display: block;
+  font-size: 175px;
+  margin: 75px auto;
+  background-image: linear-gradient(to bottom, #fff0ad, #ffb6b9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.search-bar {
+  text-align: left;
+  padding: 10px;
+}
+.search-bar label {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  margin-right: 10px;
+}
+
+.btn-success {
+  background-color: #a5f2e7;
+}
+.btn-primary {
+  background-color: #a5f2e7;
+  border: 1px solid #61c0bf;
+  align-items: right;
+}
+
+.btn-info:hover {
+  background: linear-gradient(15deg, #61c0bf 0%, #80d0c7 100%);
+  color: white;
+  cursor: pointer;
+}
+.search-icon {
+  display: flex;
+  align-items: right;
+  color: #61c0bf;
+}
+.form-check-input {
+  display: block;
+  margin: 0 auto;
+  background-color: #a5f2e7;
+}
+
+.form-check-input:hover {
+  border: 2px solid #a5f2e7;
+}
+
+.sunday {
+  color: #61c0bf;
+  font-size: 20px;
+}
+
+.sunday i {
+  color: #51dacf;
+}
+
+.monday {
+  color: #61c0bf;
+  font-size: 20px;
+}
+
+.monday i {
+  color: #51dacf;
+}
+
+.tuesday {
+  color: #61c0bf;
+  font-size: 20px;
+}
+
+.tuesday i {
+  color: #51dacf;
+}
+
+.wednesday {
+  color: #61c0bf;
+  font-size: 20px;
+}
+
+.wednesday i {
+  color: #51dacf;
+}
+
+.thursday {
+  color: #61c0bf;
+  font-size: 20px;
+}
+
+.thursday i {
+  color: #51dacf;
+}
+
+.celsius-link,
+.fahrenheit-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #61c0bf;
+}
+
+.celsius-link:hover,
+.fahrenheit-link:hover {
+  color: #80d0c7;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.celsius-link.active {
+  color: #fff;
+  background-color: #61c0bf;
+}
+
+.fahrenheit-link.active {
+  color: #fff;
+  background-color: #61c0bf;
+}
+
+.celsius-link,
+.fahrenheit-link {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.celsius-link:last-child,
+.fahrenheit-link:last-child {
+  margin-right: 0;
+}
+
+#datetime {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: light;
+  color: #00c9c2;
+}
